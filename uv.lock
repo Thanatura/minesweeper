@@ -217,6 +217,7 @@ dev = [
     { name = "black" },
     { name = "isort" },
     { name = "pre-commit" },
+    { name = "pytest" },
 ]
 
 [package.metadata]
@@ -230,6 +231,7 @@ dev = [
     { name = "black", specifier = ">=26.1.0" },
     { name = "isort", specifier = ">=8.0.1" },
     { name = "pre-commit", specifier = ">=4.5.1" },
+    { name = "pytest", specifier = ">=9.0.2" },
 ]
 
 [[package]]
