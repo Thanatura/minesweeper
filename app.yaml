@@ -1,3 +1,6 @@
 runtime: python313 # Defines the python runtime
 service: default # The name of the service
 entrypoint: python app/app.py # The entrypoint for the app
+
+automatic_scaling:
+  max_instances: 1 # Limits the number of instances to 1
